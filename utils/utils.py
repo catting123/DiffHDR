@@ -181,5 +181,18 @@ def read_images(
     return imgs
 
 
+def read_hdr(path):
+    img = cv2.imread(path, cv2.IMREAD_UNCHANGED)
+    return img
 
+def write_png(path, img):
+    img *= 255
+    cv2.imwrite(path, img)
+
+def hdr_to_png(dir): 
+    files = get_all_files(dir, suffix=".hdr")
+    for file in files:
+        path = os.path.join(dir, file)
+        img = read_hdr(path)
+        write_png(path[:-3]+"png", img)
 
