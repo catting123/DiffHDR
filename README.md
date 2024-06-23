@@ -1,6 +1,6 @@
 # 基于扩散模型实现高质量HDR图像恢复 —— 2024 Spring Computer Vision Final Project 
 
-## B站视频链接：
+## [B站视频链接（可能还在审核，请耐心等待哦~）](https://space.bilibili.com/1076908343?spm_id_from=333.1007.0.0)
 
 ## 综述
 
