@@ -1,6 +1,9 @@
-# 基于扩散模型实现高质量HDR图像恢复 —— 2024 Spring Computer Vision Final Project  
+# 基于扩散模型实现高质量HDR图像恢复 
+## —— 2024 Spring Computer Vision Final Project  
 
-![微信图片_20240623145442](https://github.com/OUC-CV/final-project-ouc-sota/assets/106426328/d612c676-fa16-4c3b-94cc-e7f986419f84)
+![comparsion1](https://github.com/OUC-CV/final-project-ouc-sota/assets/106426328/d612c676-fa16-4c3b-94cc-e7f986419f84)
+
+![comparsion2](https://github.com/OUC-CV/final-project-ouc-sota/assets/100746721/a5fdda29-e1d8-4cdd-812c-946e063b9acc)
 
 ## 这里仅展示部分项目报告！！！
 ## 这里仅展示部分项目报告！！！
@@ -48,9 +51,12 @@
 ### 实验结果 
 #### 定性结果 
 
-![images_results](https://github.com/OUC-CV/final-project-ouc-sota/assets/106426328/d612c676-fa16-4c3b-94cc-e7f986419f84)
+![comparsion1](https://github.com/OUC-CV/final-project-ouc-sota/assets/106426328/d612c676-fa16-4c3b-94cc-e7f986419f84)
+
+![comparsion2](https://github.com/OUC-CV/final-project-ouc-sota/assets/100746721/a5fdda29-e1d8-4cdd-812c-946e063b9acc)
+
   
-定性结果如图 4-1 所示，上方是Debevec方式 下方是 Ground True，中间是我们的方法实现的结果，通过对比可以看出，我们方法的优化效果非常好，生成了和真实图片非常接近的高质量HDR图片，效果远远高于Debevec方式生成的图片。从图中可以看到，我们的结果不仅非常清晰， 而且对能够较好地对其不同的曝光图像，达到了高动态范围稳定成像的效果。更多的结果可以从我们的仓库中查看。 
+定性结果如图 4-1、图 4-2 所示，上方是 Debevec 算法，下方是 Ground True，中间是我们的方法实现的结果，通过对比可以看出，我们方法的优化效果非常好，生成了和真实图片非常接近的高质量HDR图片，效果远远高于Debevec方式生成的图片。从图中可以看到，我们的结果不仅非常清晰， 而且对能够较好地对其不同的曝光图像，达到了高动态范围稳定成像的效果。更多的结果可以从我们的仓库中查看。 
 
 #### 定量结果 
 ![evaluation_results](https://github.com/OUC-CV/final-project-ouc-sota/assets/100746721/f34021c5-e0a9-4be4-ae8b-42fc2191fca1)
