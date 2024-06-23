@@ -115,3 +115,31 @@ def get_radiance_map(images, times, crf):
     radiance_map[:, :, 2] = get_single_map(images_r, times, crf[2])
     radiance_map = minmax_scaler(radiance_map)
     return radiance_map
+
+def Debevec(path='./data/Test/',out_path='./image/Debevec/Tonemapped/'):
+    for i in range(1, 16):
+        folder = os.path.join(path + f"{i:03}")
+        img_paths = list_all_files_sorted(folder, '.tif')
+        images,times = [], []
+        for img_path in img_paths:
+            img = cv2.imread(img_path)
+            images.append(img)
+        exposure = os.path.join(folder, "exposure.txt")
+        with open(exposure) as f:
+            for j in range(3):
+                time = float(f.readline().strip())
+                if time == 0:
+                    time = 0.0000001
+                times.append(time)
+        # print(times)
+        times = np.array(times,dtype=np.float32)
+
+        crf = get_crf(images, times)
+        hdr = get_radiance_map(images, times, crf)
+        # print(hdr.dtype)
+        out_file = os.path.join(out_path,  f"{i:02}.png")
+        # # print(hdr)
+        cv2.imwrite(out_file, 255 * hdr)
+
+if __name__ == '__main__':
+    Debevec()
