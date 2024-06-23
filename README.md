@@ -1,1 +1,7 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/8oH8aWc3)
+# 基于扩散模型实现高质量HDR图像恢复 —— 2024 Spring Computer Vision Final Project 
+
+## B站视频链接：
+
+## 综述
+
+本文研究了基于扩散模型的高质量HDR图像恢复技术。随着深度学习的发展，尤其是生成式模型如 GAN 和 扩散模型 的兴起，HDR图像合成的研究逐渐从依赖多张不同曝光的图像合成向单张图像和无监督学习方向发展。本文提出了一个基于条件扩散模型的HDR扩散模型，通过特征条件生成器（FCG）和滑动窗口噪声估计方法（SWNE）等技术，有效提升了HDR图像的质量，并减少了扩散模型的迭代次数。实验结果显示，本方法能够生成高质量的HDR图像，并且在视觉上与真实场景高度一致。
