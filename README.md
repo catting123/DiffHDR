@@ -1,6 +1,9 @@
 # 基于扩散模型实现高质量HDR图像恢复 —— 2024 Spring Computer Vision Final Project  
 
-# 这里仅展示部分项目报告，完整项目报告请查阅 PDF：（[基于扩散模型实现高质量HDR图像恢复.pdf](https://github.com/OUC-CV/final-project-ouc-sota/blob/main/%E5%9F%BA%E4%BA%8E%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E5%AE%9E%E7%8E%B0%E9%AB%98%E8%B4%A8%E9%87%8FHDR%E5%9B%BE%E5%83%8F%E6%81%A2%E5%A4%8D.pdf)）
+# 这里仅展示部分项目报告
+# 这里仅展示部分项目报告
+# 这里仅展示部分项目报告
+# 完整项目报告请查阅 PDF：（[基于扩散模型实现高质量HDR图像恢复.pdf](https://github.com/OUC-CV/final-project-ouc-sota/blob/main/%E5%9F%BA%E4%BA%8E%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E5%AE%9E%E7%8E%B0%E9%AB%98%E8%B4%A8%E9%87%8FHDR%E5%9B%BE%E5%83%8F%E6%81%A2%E5%A4%8D.pdf)）
   
 ## [B站视频链接（可能还在审核，请耐心等待哦~）](https://space.bilibili.com/1076908343?spm_id_from=333.1007.0.0)
   
@@ -55,5 +58,7 @@ SSIM 越接近 1，LPIPS 越接近 0，表明模型效果越好。我们方法�
 
 ## 个人贡献声明：
 曹文汀(40%)：负责项目模型训练，项目报告实验部分的撰写、项目视频文稿的录制
+
 韩东明(30%)：完成论文起草，引言、文献综述和结论部分的撰写；研究背景及研究现状的分析和探讨；扩散模型的相关资料搜集与整理。
+
 刘远(30%)：负责项目使用的具体方法，包括HDR扩散模型、FCG模型、滑动窗口噪声估计SWNE等技术的分析与学习，项目报告方法部分的撰写，项目视频文稿撰写
