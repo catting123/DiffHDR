@@ -11,7 +11,7 @@
 ## 这里仅展示部分项目报告！！！
 ## 完整项目报告请查阅 PDF：（[基于扩散模型实现高质量HDR图像恢复.pdf](https://github.com/OUC-CV/final-project-ouc-sota/blob/main/%E5%9F%BA%E4%BA%8E%E6%89%A9%E6%95%A3%E6%A8%A1%E5%9E%8B%E5%AE%9E%E7%8E%B0%E9%AB%98%E8%B4%A8%E9%87%8FHDR%E5%9B%BE%E5%83%8F%E6%81%A2%E5%A4%8D.pdf)）
   
-## [2024春计算机视觉课程项目Bilibili]([https://space.bilibili.com/1076908343?spm_id_from=333.1007.0.0](https://www.bilibili.com/video/BV1VT3geuEos/?pop_share=1&vd_source=51c895ed9d84225ea638f205873704bf))
+## [2024春计算机视觉课程项目Bilibili](https://www.bilibili.com/video/BV1VT3geuEos/?pop_share=1&vd_source=51c895ed9d84225ea638f205873704bf)
   
 ## 综述 
   
