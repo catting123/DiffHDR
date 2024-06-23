@@ -44,11 +44,10 @@
 
 ### 实验结果 
 #### 定性结果 
-  ![image](https://github.com/OUC-CV/final-project-ouc-sota/assets/106426328/17688147-cc66-4aaa-ab9b-06d3340452ef) 
+![Uploading 微信图片_20240623145442.png…]()
 
-  ![image](https://github.com/OUC-CV/final-project-ouc-sota/assets/106426328/080cde84-8a84-4566-bc84-33a59e1df734) 
   
-定性结果如图 4-1, 图 4-2 和图 4-3 所示，上方是 Ground True，下方是我们的方法实现的结果，两者非常接近。从图中可以看到，我们的结果不仅非常清晰， 而且对能够较好地对其不同的曝光图像，达到了高动态范围稳定成像的效果。更多的结果可以从我们的仓库中查看。 
+定性结果如图 4-1, 图 4-2 和图 4-3 所示，上方是Debevec方式 下方是 Ground True，中间是我们的方法实现的结果，通过对比可以看出，我们方法的优化效果非常好，生成了和真是图片非常接近的高质量HDR图片，效果远远高于Debevec方式生成的图片。从图中可以看到，我们的结果不仅非常清晰， 而且对能够较好地对其不同的曝光图像，达到了高动态范围稳定成像的效果。更多的结果可以从我们的仓库中查看。 
 
 #### 定量结果 
   ![image](https://github.com/OUC-CV/final-project-ouc-sota/assets/106426328/d5db5bd8-cb6e-4ec0-a645-b7d91bbdc980) 
