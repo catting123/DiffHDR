@@ -4,7 +4,7 @@
 
 # 基于扩散模型实现高质量HDR图像恢复 —— 2024 Spring Computer Vision Final Project  
 
-# 这里仅展示项目报告中的方法、实验部分以及部分结果展示，完整项目报告请于仓库中查阅 
+# 这里仅展示项目报告中的方法、实验部分以及 #部分# 结果展示，完整项目报告请于仓库中查阅 
   
 ## [B站视频链接（可能还在审核，请耐心等待哦~）](https://space.bilibili.com/1076908343?spm_id_from=333.1007.0.0)
   
@@ -46,10 +46,9 @@
 #### 定性结果 
   ![image](https://github.com/OUC-CV/final-project-ouc-sota/assets/106426328/17688147-cc66-4aaa-ab9b-06d3340452ef) 
 
-定性结果如图 4-1, 图 4-2 和图 4-3 所示，上方是 Ground True，下方是我们的方法实现的结果，两者非常接近。从图中可以看到，我们的结果不仅非常清晰， 
-CommentWritePreviewLeave a commentMarkdown is supported Paste, drop, or click to add filesStart a reviewAdd single commentCancel 
   ![image](https://github.com/OUC-CV/final-project-ouc-sota/assets/106426328/080cde84-8a84-4566-bc84-33a59e1df734) 
-  而且对能够较好地对其不同的曝光图像，达到了高动态范围稳定成像的效果。更多的结果可以从我们的仓库中查看。 
+  
+定性结果如图 4-1, 图 4-2 和图 4-3 所示，上方是 Ground True，下方是我们的方法实现的结果，两者非常接近。从图中可以看到，我们的结果不仅非常清晰， 而且对能够较好地对其不同的曝光图像，达到了高动态范围稳定成像的效果。更多的结果可以从我们的仓库中查看。 
 
 #### 定量结果 
   ![image](https://github.com/OUC-CV/final-project-ouc-sota/assets/106426328/d5db5bd8-cb6e-4ec0-a645-b7d91bbdc980) 
