@@ -76,8 +76,7 @@ SSIM 越接近 $1$，LPIPS 越接近 $0$，表明模型效果越好。我们方�
 刘远(30%)：负责项目使用的具体方法，包括HDR扩散模型、FCG模型、滑动窗口噪声估计SWNE等技术的分析与学习，项目报告方法部分的撰写，项目视频文稿撰写。
 
 ## 致谢
-本文方法在 [huTao1030/DiffHDR-pytorch](https://github.com/huTao1030/DiffHDR-pytorch) 进行了修改。
-
+* 本文方法在 [huTao1030/DiffHDR-pytorch](https://github.com/huTao1030/DiffHDR-pytorch) 进行了修改。
 
 ## Inspiration:
 
