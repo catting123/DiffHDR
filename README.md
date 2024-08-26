@@ -78,7 +78,7 @@ SSIM 越接近 $1$，LPIPS 越接近 $0$，表明模型效果越好。我们方�
 ## 致谢
 * 本文方法在 [huTao1030/DiffHDR-pytorch](https://github.com/huTao1030/DiffHDR-pytorch) 进行了修改。
 
-## Inspiration:
+## 启发
 
 * [Towards High-quality HDR Deghosting with Conditional Diffusion Models](https://arxiv.org/abs/2311.00932)
 * [Generative Diffusion Prior for Unified Image Restoration and Enhancement](https://arxiv.org/abs/2304.01247)
